@@ -1,0 +1,72 @@
+body {
+  background-color: crimson;
+}
+
+h1 {
+  color: black;
+  position:relative;
+  left:925px;
+  top:200px;
+  font-family: "Bakbak One", cursive;
+}
+
+.aboutMe {
+  font-family: "Bakbak One", cursive;
+  width: 1000px;
+  height: 400px;
+  top:200px;
+  position: relative;
+  left: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  text-align: center;
+  padding: 20px;
+}
+
+
+#topContainer{
+    color: crimson;
+    display: flex;
+    background-color: black;
+    width: 2505px;
+    height:50px;
+    position: absolute;
+    left: -5px;
+    flex-wrap: wrap;
+    font-family: 'Bakbak One', cursive;
+    padding: 30px;
+    top: -5px;
+}
+
+#homePage{
+    font-family: 'Bakbak One', cursive;
+    background-color: crimson;
+    padding: 10px;
+    font-size: 18px;
+    color: lightblue;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: crimson;
+    position: absolute;
+    top: 35px;
+    left: 2200px;
+}
+
+
+#blog{
+    font-family: 'Bakbak One', cursive;
+    background-color: crimson;
+    padding: 10px;
+    font-size: 18px;
+    color: lightblue;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: crimson;
+    position: absolute;
+    top: 35px;
+    left: 2100px;
+}
