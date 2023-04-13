@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../etch-a-sketch"
+		},
+		{
+			"path": "../calculator"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "etch-a-sketch"
+	}
+}

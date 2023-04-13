@@ -1,0 +1,419 @@
+@font-face {
+  font-family: "norse";
+  src: url("coding-portfolio/Norse.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "codingPortfolio";
+  src: url("codingportfolio/codingportfolio.otf") format("opentype");
+}
+
+#topContainer {
+  display:grid;
+  grid-template-columns:500px 300px 200px;
+  grid-template-rows:0px 0px 100px;
+  color:aliceblue;
+  position:relative; 
+  right:0.8vh;
+  bottom:0.8vh;
+  width:200vh;
+  padding:20px;
+  background-color:coral;
+  font-family: 'Oswald', sans-serif;
+  
+}
+
+#name{
+  display:flex;
+  font-size:3em;
+  position:relative;
+  bottom:0.5vh;
+  left:0.5vh;
+  grid-row:1;
+}
+
+#bottomContainer {
+  position: absolute;
+  top: 1210px;
+  left: -60px;
+  width: 2650px;
+  height: 200px;
+  background-color:coral;
+  color: aliceblue;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+  border-style: solid;
+  border-color:coral;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+#email {
+  position: relative;
+  top: 5vh;
+  left:4vh;
+}
+
+#phoneNumber {
+  position: relative;
+  top: 125px;
+  right:7.5vh;
+}
+
+#blogButton {
+  background-color:royalblue;
+  padding: 0.8vh;
+  font-family:"Bakbak One", cursive;
+  font-size: 18px;
+  color:aliceblue;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: royalblue;
+  box-shadow:0 0 20 rgba(0, 0, 250, 0);
+  position: absolute;
+  top: 4vh;
+  left: 144vh;
+}
+
+#blogButton:hover{
+  background-color:lightblue;
+  border-color:lightblue;
+}
+
+#linkedIn {
+  background-color: royalblue;
+  padding: 10px;
+  font-family: "Bakbak One", cursive;
+  font-size: 18px;
+  color:aliceblue;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: royalblue;
+  position: absolute;
+  top: 20px;
+  left: 1279px;
+  justify-content: center;
+  align-items: center;
+}
+
+#linkedIn:hover{
+  background-color:darkblue;
+  border-color:darkblue;
+}
+
+#aboutButton {
+  background-color: royalblue;
+  padding: 10px;
+  font-family: "Bakbak One", cursive;
+  font-size: 18px;
+  color: aliceblue;
+  border-radius: 20px;
+  border-style: solid;
+  border-color:royalblue;
+  position: absolute;
+  top: 4vh;
+  left: 170vh;
+}
+
+#aboutButton:hover{
+  background-color:lightblue;
+  border-color:lightblue;
+}
+
+body {
+  background-color:teal;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#containerProjectOne {
+  background-color:black;
+  position: absolute;
+  display:grid;
+  grid-template-rows:150px 300px 400px 100px 300px;
+  grid-template-columns:280px 0px 300px;
+  color: lightblue;
+  width: 550px;
+  font-family: 'Oswald', sans-serif;
+  height: 400px;
+  flex-wrap: wrap;
+  padding: 30px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+  top: 205px;
+  left: 225px;
+}
+
+.rpsP{
+  position:relative;
+  bottom:10vh;
+}
+
+#projectTitleOne {
+  font-family: "norse", sans-serif;
+  font-size: 85px;
+  grid-row:1;
+  grid-column:1;
+  position: absolute;
+  left:1.5vh;
+  bottom:18vh;
+  color:crimson;
+}
+
+#rpsProjectButton {
+  background-color:royalblue;
+  color: aliceblue;
+  left: 40px;
+  font-family: "Bakbak One", cursive;
+  width: 100px;
+  height: 4vh;
+  position:relative;
+  border-radius: 20px;
+  border-color: black;
+  left: 150px;
+  top: 10.6vh;
+}
+
+#rpsProjectButton:hover{
+  background-color:darkblue;
+  border-color:darkblue;
+}
+
+#rpsCode:hover{
+  background-color:darkblue;
+  border-color:darkblue;
+}
+
+#rpsCode {
+  background-color:royalblue;
+  color:aliceblue;
+  font-family: "Bakbak One", cursive;
+  width: 100px;
+  grid-row:2;
+  height: 4vh;
+  border-radius: 20px;
+  position: relative;
+  border-color: black;
+  grid-column:2;
+}
+
+
+#rpsDescOne {
+  color: lightblue;
+  position: absolute;
+  bottom:6vh;
+  padding:10px;
+  font-size: 1.06em;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  left: 5px;
+  
+}
+
+#rpsDescTwo {
+  color: lightblue;
+  position: relative;
+  font-size: 19px;
+  right:1.1vh;
+  bottom:10.2vh;
+  grid-row:3;
+  grid-column:1/4;
+  padding:20px;
+  display: flex;
+  text-align:center;
+
+}
+
+
+#containerProjectTwo {
+  background-color: black;
+  position: relative;
+  display:grid;
+  grid-template-rows:335px 200px 200px;
+  grid-template-columns:0px 200px 400px 300px;
+  color: lightblue;
+  width: 550px;
+  height: 400px;
+  flex-wrap: wrap;
+  padding: 30px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color:black;
+  top:4vh;
+  left: 967px;
+}
+
+#projectTitleTwo {
+  font-family: "Cabin Sketch", cursive;
+  font-size: 5em;
+  color: brown;
+  position: absolute;
+  left: 4.3vh;
+}
+
+#etchasketchP{
+  display:grid;
+  grid-template-rows:250px 200px 200px;
+  grid-template-columns:400px 200px 200px;
+}
+
+#etchasketchDescOne {
+  color: lightblue;
+  position: relative;
+  padding:10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  grid-row:1;
+  grid-column:1/3;
+  display: flex;
+  right:15.5vh;
+  top:15vh;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#etchasketchDescTwo {
+  color: lightblue;
+  font-family: 'Oswald', sans-serif;
+  position:relative;
+  grid-row:2;
+  top:5vh;
+  grid-column:1/3;
+  font-size: 1.1em;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  right:15.5vh;
+  padding:10px;
+}
+
+
+#etchasketchProject {
+  background-color:royalblue;
+  color: aliceblue;
+  left: 40px;
+  font-family: "Bakbak One", cursive;
+  width: 100px;
+  height: 4vh;
+  position:relative;
+  border-radius: 20px;
+  border-color: black;
+  left: 11.5vh;
+  top: 10.6vh;
+}
+
+#etchasketchProject:hover{
+  background-color:darkblue;
+  border-color:darkblue;
+}
+
+#codeTwo {
+  background-color:royalblue;
+  color: aliceblue;
+  left: 40px;
+  font-family: "Bakbak One", cursive;
+  width: 100px;
+  height: 4vh;
+  position:relative;
+  border-radius: 20px;
+  border-color: black;
+  left: 20.8vh;
+  top: 10.6vh;
+}
+
+#codeTwo:hover{
+  background-color:darkblue;
+  border-color:darkblue;
+}
+
+#projectContainerThree {
+  background-color: black;
+  position: relative;
+  color: lightblue;
+  display: flex;
+  width: 550px;
+  height: 425px;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+  bottom:29vh;
+  left: 122vh;
+}
+
+#projectTitleThree {
+  font-family: "Merienda One", cursive;
+  font-size: 75px;
+  position: relative;
+  bottom:1.5vh;
+  left: 6vh;
+  color: lightblue;
+}
+
+#calculatorDescOne {
+  color: lightblue;
+  position: relative;
+  top:0.5vh;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  left: 7px;
+  padding:10px;
+}
+
+#calculatorDescTwo {
+  color: lightblue;
+  position: relative;
+  bottom:2vh;
+  font-size: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  left: 5px;
+  padding:10px;
+}
+
+#calculatorProject {
+  background-color:royalblue;
+  color: aliceblue;
+  font-family: "Bakbak One", cursive;
+  width: 100px;
+  height: 4vh;
+  position:relative;
+  border-radius: 20px;
+  border-color:royalblue;
+  right:16vh;
+  top: 11.5vh;
+}
+
+#calculatorProject:hover{
+  background-color:darkblue;
+  border-color:darkblue;
+}
+
+#codeThree {
+  background-color:royalblue;
+  color: aliceblue;
+  width: 100px;
+  height: 4.2vh;
+  font-family: "Bakbak One", cursive;
+  position: absolute;
+  border-radius: 20px;
+  border-color: black;
+  left: 312px;
+  top: 12.9vh;
+}
+
+#codeThree:hover{
+  background-color:darkblue;
+  border-color:darkblue;
+}
