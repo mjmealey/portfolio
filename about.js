@@ -9,6 +9,6 @@ homePage.addEventListener("click", (e) => {
 
 blog.addEventListener("click", (e) => {
     if(e.target.id === "blog"){
-        window.location.href = "file:///home/mjmealey/Downloads/codingportfolio/blog.html"
+        window.location.href = "https://mjmealey.github.io/portfolio/blog.html"
     }
 })
