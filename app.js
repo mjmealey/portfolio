@@ -1,4 +1,4 @@
-let blogButton = document.getElementById("blogButton");
+
 let aboutButton = document.getElementById("aboutButton");
 let contactButton = document.getElementById("contactButton");
 let rpsProjectButton = document.getElementById("rpsProjectButton");
@@ -41,13 +41,6 @@ calculatorProject.addEventListener("click", (e) => {
 codeThree.addEventListener("click", (e) => {
   if (e.target.id === "codeThree") {
     window.location.href = "https://github.com/mjmealey/calulator.app";
-  }
-});
-
-blogButton.addEventListener("click", (e) => {
-  if (e.target.id === "blogButton") {
-    window.location.href =
-      "https://mjmealey.github.io/portfolio/blog.html";
   }
 });
 
